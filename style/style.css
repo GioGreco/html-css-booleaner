@@ -50,3 +50,21 @@ main, footer{
 .image-wrapper{
     margin: 15px 0;
 }
+
+/* article's body properties */
+section{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.par{
+    margin: 15px 0;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.list{
+    padding: 0 0 0 20px;
+}
