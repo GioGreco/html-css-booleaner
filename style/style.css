@@ -88,9 +88,12 @@ tbody > tr:nth-child(odd){
     background-color: #b2e4f2;
 }
 
-tbody > tr{
-    height: 75px;
-    line-height: 75px;
+.col.left{
+    width: 25%;
+}
+
+.col.right{
+    width: 50%;
 }
 
 /* footer properties */
@@ -107,11 +110,11 @@ footer > h3{
     position: relative;
 }
 
-.first{
+.other-articles.first{
     background-image: url(../img/monitor.jpg);
 }
 
-.second{
+.other-articles.second{
     background-image: url(../img/graph.jpg);
 }
 
