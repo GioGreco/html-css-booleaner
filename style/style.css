@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
 }
 
@@ -15,4 +15,38 @@ header > #logo{
     position: absolute;
     left: 10px;
     bottom: 10px;
+}
+
+/* main properties */
+
+main, footer{
+    margin: auto;
+    width: 98%;
+}
+
+/* title properties */
+.article-title{
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.article-title > p{
+    color: grey;
+}
+
+.article-title > #author{
+    font-size: 0.8em;
+}
+
+.article-title > #author > a{
+    text-decoration: none;
+    color: #3cb2e7;
+}
+
+.article-title > #article-date{
+    font-size: 0.6em;
+}
+
+.image-wrapper{
+    margin: 15px 0;
 }
